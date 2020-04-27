@@ -1,0 +1,6 @@
+<div ng-controller="Display_Employees_Ctrl">
+    <div ng-model="nodata">
+        <div ng-if="nodata" ng-include="'/static/html/no_employee.html'"></div>
+        <div ng-if="!nodata" ng-include="'/static/html/employee_data.html'"></div>
+    </div>
+</div>

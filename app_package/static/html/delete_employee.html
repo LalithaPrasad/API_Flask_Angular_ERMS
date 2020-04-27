@@ -1,0 +1,18 @@
+<div ng-controller="Delete_Employee_Ctrl">
+    <fieldset>
+        <legend>Delete employee</legend>
+        <form ng-submit="submit_delete_employee_form()">
+            <table>
+                <tr>
+                    <td><label for="id">Id</label></td>
+                    <td><input type="number" id="id" name="id"
+                        ng-model="id" auto-focus></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Delete employee"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</div>

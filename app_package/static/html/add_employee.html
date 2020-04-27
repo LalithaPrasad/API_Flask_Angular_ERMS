@@ -1,0 +1,28 @@
+<div ng-controller="Add_Employee_Ctrl">
+    <fieldset>
+        <legend>Add employee</legend>
+        <form ng-submit="submit_add_employee_form()">
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" ng-model="name" auto-focus></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input type="text" id="age" ng-model="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="ed">Education</label></td>
+                    <td><input type="text" id="ed" ng-model="ed"></td>
+                </tr>
+                <tr>
+                    <td><label for="role">Role</label></td>
+                    <td><input type="text" id="role" ng-model="role"></td>
+                </tr>
+                <tr>
+                    <td></td><td><input type="submit" value="Add employee"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</div>

@@ -1,0 +1,25 @@
+<div ng-controller="Modify_Employee_Ctrl">
+    <fieldset>
+        <legend>Modify employee</legend>
+        <form ng-submit="submit_modify_employee_form()">
+            <table>
+                <tr>
+                    <td><label for="id">Id</label></td>
+                    <td><input type="number" id="id" ng-model="id" auto-focus></td>
+                </tr>
+                <tr>
+                    <td><label for="ed">Education</label></td>
+                    <td><input type="text" id="ed" ng-model="ed"></td>
+                </tr>
+                <tr>
+                    <td><label for="role">Role</label></td>
+                    <td><input type="text" id="role" ng-model="role"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Modify employee"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</div>

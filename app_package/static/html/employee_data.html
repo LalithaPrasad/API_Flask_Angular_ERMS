@@ -1,0 +1,14 @@
+<fieldset>
+    <legend>Display employees</legend>
+    <table>
+        <tr>
+            <th>Id</th> <th>Name</th> <th>Age</th> <th>Education</th> <th>Role</th>
+        </tr>
+        <tr ng-repeat="emp in employees">
+            <td>{{emp.id}}</td> <td>{{emp.name}}</td>
+            <td>{{emp.age}}</td> <td>{{emp.ed}}</td>
+            <td>{{emp.role}}</td>
+        </tr>
+    </table>
+</fieldset>
+<p><a href="/employee_menu">Back to employee menu</a></p>
